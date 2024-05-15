@@ -1,31 +1,39 @@
+/* This is a universal selector and will apply to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Styling by element */
 body {
     background-color: #d9dcd6;
-    /* Sets Body Background Color */
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Styling by class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    /* Sets Padding, Font Family, Background Color, and Text Color for the header class*/
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    /* Sets Font Size for the h1 element and displays the menu as inline for the header class */
 }
 
 .header h1 .seo {
     color: #d9dcd6;
-    /* Sets Text Color for the .seo class */
 }
 
 .header nav {
@@ -34,30 +42,17 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    /* Sets Padding, Margin, Font Family, and Font Size for the nav element within the header class */
 }
 
 .header nav ul {
-    list-style-type: none;
-    /* Removes the Bullets from the List */
+    list-style-type: none; /* Removes the Bullets from the List */   
 }
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    /* Sets the List Items to Display Inline and Adds Margin to the Left */
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-    /* Sets Text Color and Removes Underline from Links */
-}
-
-p {
-    font-size: 16px;
-    /* Sets Font Size for Paragraphs */
-}
 
 .hero {
     height: 800px;
@@ -66,26 +61,22 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    /* Sets Height, Width, Margin, and Background Image for the hero class */
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
-    /* Floats the Element to the Left and Adds Margin to the Right */
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
-    /* Floats the Element to the Right and Adds Margin to the Left */
 }
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    /* Sets Width, Display, and Margin for the content class */
 }
 
 
@@ -98,7 +89,6 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    /* Sets Margin, Padding, Clear, Float, Width, Height, Font Family, and Background Color for the benefits class */
 }
 
 .benefit-lead,
@@ -107,7 +97,6 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Sets Margin and Text Color for the benefit-lead, benefit-brand, and benefit-cost classes */
 
 
 .benefit-lead h3,
@@ -116,7 +105,6 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-/* Sets Margin and Text Alignment for the h3 elements within the benefit-lead, benefit-brand, and benefit-cost classes */
 
 .benefit-lead img,
 .benefit-brand img,
@@ -124,7 +112,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-/* Sets Display, Margin, and Maximum Width for the images within the benefit-lead, benefit-brand, and benefit-cost classes */
 }
 
 .search-engine-optimization,
@@ -136,14 +123,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    /* Sets Margin, Padding, Height, Font Family, Background Color, and Text Color for the search-engine-optimization, online-reputation-management, and social-media-marketing classes */
 }
 
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
-/* Sets Maximum Height for the images within the search-engine-optimization, online-reputation-management, and social-media-marketing classes */
 }
 
 .search-engine-optimization h2,
@@ -151,7 +136,6 @@ p {
 .social-media-marketing h2{
     margin-bottom: 20px;
     font-size: 36px;
-/* Sets Margin and Font Size for the h2 elements within the search-engine-optimization, online-reputation-management, and social-media-marketing classes */
 }
 
 .footer {
@@ -159,10 +143,8 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-/* Sets Padding, Clear, Font Family, and Text Alignment for the footer class */
 }
 
 .footer h2 {
     font-size: 20px;
-/* Sets Font Size for the h2 element within the footer class */
 }

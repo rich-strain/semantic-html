@@ -11,6 +11,9 @@ This is the Week 1 challenge where we are tasked with refactoring existing code 
 - Update the title element to use a descriptive title.
 - Consolidate and comment the CSS file in the `assets/css/style.css` folder
 
+## Deployed URL
+- https://rich-strain.github.io/week1-challenge/
+
 ## Screenshot
 
 ![Horiseon Homepage](./assets/images/screenshot.png)

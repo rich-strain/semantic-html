@@ -1,4 +1,4 @@
-# Week 1 Challenge
+# Semantic HTML
 
 ## Description
 
@@ -12,7 +12,8 @@ This is the Week 1 challenge where we are tasked with refactoring existing code 
 - Consolidate and comment the CSS file in the `assets/css/style.css` folder
 
 ## Deployed URL
-- https://rich-strain.github.io/week1-challenge/
+
+- https://rich-strain.github.io/semantic-html/
 
 ## Screenshot
 
